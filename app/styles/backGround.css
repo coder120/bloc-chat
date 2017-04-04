@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+    position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/bloc_chat.jpg);
+    background-size: 100%;
+}
+
+.chatRoom{
+    
+}
+
+.bc-text{
+  color: aliceblue;
+}
