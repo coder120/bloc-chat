@@ -2,7 +2,10 @@
     function landingCtrl(Room) {
         this.rooms = Room.all;
         
+        
     }
+    
+   
     
     angular
         .module('blocChat')

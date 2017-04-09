@@ -13,3 +13,12 @@ body {
 .bc-text{
   color: aliceblue;
 }
+
+.button {
+    position: absolute;
+    top: 4.5%;
+    right: 60%;
+   
+    
+    
+}
