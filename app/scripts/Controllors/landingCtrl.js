@@ -1,13 +1,20 @@
 (function() {
-    function landingCtrl(Room) {
+    function landingCtrl($uibModal, Room) {
         this.rooms = Room.all;
-        
-        
+        this.open= function(){
+            var modalInstance =  $uibModal.open({
+                 templateUrl: 'templates/modal.html',
+                 controller: 'ModalCtrl';
+            })
+       
     }
-    
-   
+         };
+                                                
     
     angular
         .module('blocChat')
-        .controller('landingCtrl', ["Room", landingCtrl]);
+        .controller('landingCtrl', ["$uibModal", "Room", landingCtrl]);
 })();
+        
+        
+    

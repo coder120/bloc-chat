@@ -13,12 +13,6 @@ $stateProvider
                 templateUrl: '/templates/landing.html'
         })
             
-             .state('modal', {
-                url: '/',
-               controller: 'modalCtrl as modal',
-                templateUrl: '/templates/modal.html'
-        })
-        
     }
     
    angular

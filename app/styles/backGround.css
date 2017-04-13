@@ -13,7 +13,9 @@ body {
 .bc-text{
   color: aliceblue;
 }
-
+.txt-blk{
+    color: black;
+}
 .button {
     position: absolute;
     top: 4.5%;

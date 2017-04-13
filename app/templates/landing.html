@@ -2,17 +2,12 @@
     <h1 class="bc-text">Bloc Chat</h1>
       <div ng-repeat="room in landing.rooms track by $index">
              {{ room.$value }}
-         </div>
+    </div> 
     <div>
-    
-        <button class="btn btn-primary button"
-                data-toggle="modal"
-                data-target="room-info"
-                ng-click="modal">new room</button>
+     <button class="btn-sm btn-success" ng-click="landing.open()">Add A New Chat Room</button>
+       
+
     </div>
-     
-   
-    
 </section>
 
 
