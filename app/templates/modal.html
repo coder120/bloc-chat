@@ -1,9 +1,13 @@
   <div class="modal-header">
-    <h3 class="modal-title text-center">New Chat Room</h3>
+    <h3 class="modal-title text-center">Create New Chat Room</h3>
 </div>
 <div class="modal-body">
     <div class="form-group modal-input">
-        <label for="newChatRoomName">New Chat Room Name:</label>
+        <label for="newChatRoomName">Chat Room Name:</label>
         <input class="txt-blk" id="newChatRoomName" type="text" ng-model="text">
+        
+         <button class="btn-sm btn-success" ng-click="Modal.submit()">submit</button>
+        
+         <button class="btn-sm btn-success" ng-click="Modal.cancel()">cancel</button>
     </div>
 </div>

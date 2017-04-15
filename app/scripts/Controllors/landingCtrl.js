@@ -4,7 +4,7 @@
         this.open= function(){
             var modalInstance =  $uibModal.open({
                  templateUrl: 'templates/modal.html',
-                 controller: 'ModalCtrl';
+                 controller: 'modalCtrl'
             })
        
     }
